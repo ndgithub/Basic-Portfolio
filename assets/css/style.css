@@ -101,7 +101,10 @@ li {
     
 }
 
-
+.input_fields {
+    width: 100%;
+    border: 1px solid #ccc;
+}
 
 .banner {
     position: absolute;
