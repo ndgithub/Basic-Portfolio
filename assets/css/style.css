@@ -72,6 +72,7 @@ li {
 .page_body {
     padding-top: 10px;
     border-top: 2px solid #cccccc;
+    line-height: 36px;
 }
 
 #profile_image {
@@ -87,6 +88,31 @@ li {
     display: table;
 }
 
+.port_img_container {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.port_img_container {
+    position: relative;
+    
+}
+
+
+
+.banner {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    background: #4aaaa5;
+    text-align:center;
+    color: #ffffff;
+}
+
 .footer {
     background: #999999;
     height: 50px;
@@ -94,7 +120,7 @@ li {
     border-top: 4px solid #4aaaa5;
     text-align: center;
     vertical-align: baseline;
-    display:flex;
+    display: flex;
     justify-content: center;
     color: #ccc;
     font-size: 12px;
@@ -102,6 +128,4 @@ li {
 
 .footer span {
     align-self: flex-end;
-
 }
-
